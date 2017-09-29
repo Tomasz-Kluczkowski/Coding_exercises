@@ -38,7 +38,8 @@ test.assert_equals(diamond(3), expected)
 ~~~~
 
 #Initial thoughts:
-- Validate n > 0 and odd.
+- Validate n > 0 and odd. Assume no float will be used as input (unspecified).
+- Offset for maximum amount of spaces on the left and right of the * is: (n - 1)/2
 - Create a loop going from 1 to n * and then add a reversed version (but not repeating the middle point)
 - have to add next line \n chars after each line of *
 
