@@ -16,5 +16,5 @@ test_data = {(2, 1), (3, 2), (4, 3), (5, 5), (6, 8), (7, 13), (8, 21)}
 @pytest.mark.parametrize('n, expected', test_data)
 def test_fibonacci(n, expected):
     """Test fibonacci function for any n > 1."""
-d
+
     assert fibonacci(n) == expected
